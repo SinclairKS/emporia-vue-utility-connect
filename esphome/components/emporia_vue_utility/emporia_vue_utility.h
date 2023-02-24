@@ -1,5 +1,10 @@
-#include "esphome.h"
-#include "sensor.h"
+#pragma once
+
+#include "esphome/core/component.h"
+#include "esphome/components/sensor/sensor.h"
+
+namespace esphome {
+namespace emporia_vue_utility {
 
 // Extra meter reading response debugging
 #define DEBUG_VUE_RESPONSE true
@@ -646,3 +651,6 @@ class EmporiaVueUtility : public Component,  public UARTDevice {
             }
         }
 };
+
+}
+}
