@@ -1,5 +1,5 @@
-#include "esphome.h"
-#include "sensor.h"
+#include "esphome/core/component.h"
+#include "esphome/components/sensor/sensor.h"
 
 // Extra meter reading response debugging
 #define DEBUG_VUE_RESPONSE true
