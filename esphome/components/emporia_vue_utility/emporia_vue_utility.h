@@ -7,7 +7,7 @@
 #include "esphome/components/sensor/sensor.h"
 
 namespace esphome {
-namespace vue {
+namespace emporiavueutility {
 
 // Extra meter reading response debugging
 #define DEBUG_VUE_RESPONSE true
